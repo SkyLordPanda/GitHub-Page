@@ -207,12 +207,7 @@ span.icon-bar{
 	font-size:16px;
 	font-weight:300;
 	line-height:20px;
-	box-shadow: inset -25px 25px -40px rgba(0,0,0,.5); 
-	background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
-	background-image: -moz-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);  
-	background-image: -o-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
-	background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
-	/*box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);*/
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 .site-container p{
 	margin:10px 0;
