@@ -45,6 +45,13 @@ table {
 
 /* GENERAL */
 
+.logo
+{
+    width: 25px;
+    height: 25px;
+    padding: 1%;
+}
+
 body{
 	background-color:#f3f3f3;
 	min-height:100vh;
@@ -52,7 +59,6 @@ body{
 }
 
 /* NAV */
-
 nav.navigation{
 	position:relative;
 	height:50px;
@@ -74,6 +80,27 @@ nav.navigation{
 	width: 42px;
 	height: 42px;
 	margin: 0.2222%;
+}
+.profile{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 25px auto;
+	border-radius: 50%;
+	border-style: dotted;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.git{
+	display: block;
+	margin: 25px auto;
+	width: 256px;
+	height: 85px;
+}
+.title{
+	text-align: center;
+	font-size: 32px;
+	font-style: bold;
+	font-weight: lighter;
 }
 ul.nav-menu, ul.nav-menu li, ul.nav-menu li a{
 	float:left;
@@ -177,6 +204,41 @@ span.icon-bar{
 .site-container p{
 	margin:10px 0;
 }
+
+/* Tableau */
+#customers 
+{ 
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#customers td, #customers th
+{
+    border: 1px solid rgb(94, 94, 94);
+    padding: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.658), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+#customers tr:nth-child(even)
+{
+    background-color: rgb(219, 219, 219);;
+}
+  
+#customers tr:hover
+{
+    background-color: rgb(119, 119, 119);;
+}
+  
+#customers th
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(30, 0, 78, 0.589);;
+    color: rgb(255, 255, 255);
+}
+/* end */
+
 
 /* MEDIAQUERIES */
 
