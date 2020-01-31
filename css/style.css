@@ -87,7 +87,8 @@ nav.navigation{
 	height: 200px;
 	margin: 25px auto;
 	border-radius: 50%;
-	border-style: dotted;
+	border-style: solid;
+	border-width: 2px ;
 	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 .git{
@@ -101,6 +102,12 @@ nav.navigation{
 	font-size: 32px;
 	font-style: bold;
 	font-weight: lighter;
+}
+.title2{
+	font-size: 32px;
+	font-style: bold;
+	font-weight: lighter;
+	text-decoration: underline;
 }
 ul.nav-menu, ul.nav-menu li, ul.nav-menu li a{
 	float:left;
@@ -119,7 +126,8 @@ ul.nav-menu li a{
 	transition-duration: 0.3s;
 }
 ul.nav-menu li a:hover{
-	color:#6decb9;
+	/*color:#6decb9;*/
+	color:hsla(0, 0%, 100%, 0.7);
 }
 .nav-toggle{
 	display:none;
@@ -199,7 +207,12 @@ span.icon-bar{
 	font-size:16px;
 	font-weight:300;
 	line-height:20px;
-	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+	box-shadow: inset -25px 25px -40px rgba(0,0,0,.5); 
+	background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+	background-image: -moz-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);  
+	background-image: -o-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+	background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+	/*box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);*/
 }
 .site-container p{
 	margin:10px 0;
